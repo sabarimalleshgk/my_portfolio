@@ -17,11 +17,10 @@ export const Contact = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_PUBLIC_KEY
-      )
+         import.meta.env.VITE_PUBLIC_KEY)
       .then((result) => {
         alert("Message Sent!");
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({name:"",email:"",message:""});
       })
       .catch(() => alert("Oops! Something went wrong. Please try again."));
   };

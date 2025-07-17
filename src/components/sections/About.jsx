@@ -2,14 +2,16 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "Vue",
+    "React.js",
+    "Angular.js",
     "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "TailwindCSS,",
+    "Html",
+    "CSS",
+    "Next.js"
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python",  "MongoDB", ];
 
   return (
     <section
@@ -25,8 +27,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+            I’ve built a solid foundation in front-end technologies like HTML, CSS, JavaScript, and React, as well as back-end technologies such as Node.js, Express, and MongoDB. Through self-study and hands-on practice,
+             I’ve developed a deep understanding of full-stack development principles and best practices."
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,12 +71,18 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech in Electrical and Electronics </strong> - RGM University
+                  (2017-2021)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong>CGPA </strong> :7.1
+                </li>
+                <li>
+                  <strong>Reason for Career Gap </strong> :preaped for competative EXAMS
+                </li>
+              
+                <li>
+                <strong>Relevant Coursework: </strong>UI/UX, Web Development, linux and unix server monitoring..
                 </li>
               </ul>
             </div>
@@ -84,22 +92,21 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    <strong>HANDS -ON- PRACTICE </strong>{" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    Developed and maintained portfolio, e-commerce website and renewable energy website.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Looking for intern or full time employeee{" "}
                   </h4>
                   <p>
                     Assisted in building front-end components and integration
-                    REST APIs
+                    REST APIs 
                   </p>
                 </div>
               </div>
